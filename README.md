@@ -17,7 +17,9 @@ Processamento Assíncrono: A análise dos documentos é executada em uma thread 
 
 # Planejamento
 
-![image.png](attachment:4519b1cd-4517-4e13-97c9-c96d4feb2ccb:image.png)
+--
+<img width="1014" height="789" alt="image" src="https://github.com/user-attachments/assets/dd33e4b4-e0d5-4782-b6a5-699342577aad" />
+--
 
 # 📸 Demonstração
 
@@ -136,6 +138,7 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 ## 👨‍💻 Autor
 Feito por Enock
 Linkedin: [link](www.linkedin.com/in/joao-victor-enock-972b682b9)
+
 
 
 
