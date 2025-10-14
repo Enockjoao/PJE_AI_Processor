@@ -82,7 +82,9 @@ source venv/bin/activate
 
 ## Instalar as bibliotecas necessárias
 --
+```
 pip install -r requirements.txt
+```
 --
 
 ## 4. Configurar as Variáveis de Ambiente
@@ -128,5 +130,6 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 
 ## 👨‍💻 Autor
 Feito por Enock
+
 
 
