@@ -33,15 +33,15 @@ Processamento Assíncrono: A análise dos documentos é executada em uma thread 
 
 
 # 🛠️ Tecnologias Utilizadas
-### Python 3.8+
+ Python 3.8+
 
-### CustomTkinter: Para a criação da interface gráfica.
+ CustomTkinter: Para a criação da interface gráfica.
 
-### Google Generative AI: Biblioteca oficial para interagir com a API do Gemini.
+ Google Generative AI: Biblioteca oficial para interagir com a API do Gemini.
 
-### PyPDF2: Para a extração de texto de arquivos PDF.
+ PyPDF2: Para a extração de texto de arquivos PDF.
 
-### python-dotenv: Para o gerenciamento seguro de chaves de API.
+ python-dotenv: Para o gerenciamento seguro de chaves de API.
 
 # 🚀 Instalação e Execução
 Siga os passos abaixo para executar o projeto em seu ambiente local.
@@ -51,40 +51,55 @@ Python 3.8 ou superior instalado.
 
 Uma chave de API do Google Gemini. Você pode obter uma gratuitamente no Google AI Studio.
 
-# 2. Clonar o Repositório
-´´´
-git clone [https://github.com/SEU-USUARIO/PJE_Gemini_Processor.git](https://github.com/SEU-USUARIO/PJE_Gemini_Processor.git)
-cd PJE_Gemini_Processor
-´´´
+## 2. Clonar o Repositório
 
-# 3. Instalar as Dependências
+--
+git clone [https://github.com/Enockjoao/PJE_AI_Processor.git](https://github.com/Enockjoao/PJE_AI_Processor.git)
+cd PJE_Gemini_Processor
+--
+
+
+## 3. Instalar as Dependências
 É altamente recomendável criar um ambiente virtual para isolar as dependências do projeto.
 
-# Criar um ambiente virtual (opcional, mas recomendado)
-´´´python -m venv venv´´´
+## Criar um ambiente virtual (opcional, mas recomendado)
 
-# Ativar o ambiente virtual
-# No Windows:
-venv\Scripts\activate
-# No macOS/Linux:
+--
+python -m venv venv
+--
+
+## Ativar o ambiente virtual
+
+## No Windows:
+--
+.venv\Scripts\activate.bat
+--
+## No macOS/Linux:
+
+--
 source venv/bin/activate
+--
 
-# Instalar as bibliotecas necessárias
+## Instalar as bibliotecas necessárias
+--
 pip install -r requirements.txt
+--
 
-# 4. Configurar as Variáveis de Ambiente
+## 4. Configurar as Variáveis de Ambiente
 Crie um arquivo chamado .env na raiz do projeto, copiando o conteúdo do arquivo .env.example. Em seguida, insira sua chave da API do Gemini.
 
 Arquivo .env:
 
 GEMINI_API_KEY="SUA_CHAVE_DE_API_AQUI"
 
-# 5. Executar a Aplicação
+## 5. Executar a Aplicação
 Com tudo configurado, execute o script principal para iniciar a interface.
 
+--
 python main.py
+--
 
-# ⚙️ Como Usar
+## ⚙️ Como Usar
 Com a aplicação aberta, clique no botão "Selecionar Arquivo".
 
 Escolha um arquivo de processo no formato .pdf ou .txt.
@@ -97,7 +112,7 @@ Ao final, uma janela de "Salvar como..." será aberta. Escolha o local e o nome 
 
 Pronto! Seu processo foi analisado e os dados foram salvos.
 
-# 🔧 Como Customizar a Análise (Prompt)
+## 🔧 Como Customizar a Análise (Prompt)
 A inteligência da extração reside no "prompt" enviado à API. Você pode customizar completamente o que a IA deve extrair e como ela deve formatar a saída.
 
 Abra o arquivo api_handler.py.
@@ -106,9 +121,12 @@ Localize a variável prompt dentro da função analyze_with_gemini.
 
 Altere as instruções, o cabeçalho do CSV e as regras de extração para atender às suas necessidades específicas.
 
-⚖️ Licença
+
+## ⚖️ Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-👨‍💻 Autor
+
+## 👨‍💻 Autor
 Feito por Enock
+
 
