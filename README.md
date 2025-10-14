@@ -15,6 +15,10 @@ Exportação de Dados: Salva os resultados em um arquivo .csv formatado, pronto 
 
 Processamento Assíncrono: A análise dos documentos é executada em uma thread separada para garantir que a interface do usuário permaneça responsiva durante o processamento.
 
+# Planejamento
+
+![image.png](attachment:4519b1cd-4517-4e13-97c9-c96d4feb2ccb:image.png)
+
 # 📸 Demonstração
 
 ## Tela Inicial do Programa.
@@ -132,6 +136,7 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 ## 👨‍💻 Autor
 Feito por Enock
 Linkedin: [link](www.linkedin.com/in/joao-victor-enock-972b682b9)
+
 
 
 
