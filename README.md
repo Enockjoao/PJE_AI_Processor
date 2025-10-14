@@ -1,5 +1,3 @@
-﻿# PJE_AI_Processor
-
 # Analisador de Processos Jurídicos com Gemini AI
 📖 Sobre o Projeto
 O Analisador de Processos Jurídicos é uma aplicação de desktop desenvolvida em Python que utiliza o poder da Inteligência Artificial generativa do Google Gemini para automatizar a análise e extração de dados de documentos processuais. A ferramenta lê arquivos .pdf e .txt contendo peças jurídicas, como petições ou apelações, e gera uma planilha .csv estruturada com as informações mais relevantes, otimizando o tempo e a eficiência na triagem de processos.
@@ -53,10 +51,10 @@ Uma chave de API do Google Gemini. Você pode obter uma gratuitamente no Google 
 
 ## 2. Clonar o Repositório
 
---
+```
 git clone [https://github.com/Enockjoao/PJE_AI_Processor.git](https://github.com/Enockjoao/PJE_AI_Processor.git)
 cd PJE_Gemini_Processor
---
+```
 
 
 ## 3. Instalar as Dependências
@@ -64,42 +62,44 @@ cd PJE_Gemini_Processor
 
 ## Criar um ambiente virtual (opcional, mas recomendado)
 
---
+```
 python -m venv venv
---
+```
 
-## Ativar o ambiente virtual
+# Ativar o ambiente virtual
+### No Windows:
 
-## No Windows:
---
 .venv\Scripts\activate.bat
---
-## No macOS/Linux:
 
---
-source venv/bin/activate
---
+### No macOS/Linux:
+
+```
+source .venv/bin/activate
+```
+
 
 ## Instalar as bibliotecas necessárias
---
+
 ```
 pip install -r requirements.txt
 ```
---
+
 
 ## 4. Configurar as Variáveis de Ambiente
 Crie um arquivo chamado .env na raiz do projeto, copiando o conteúdo do arquivo .env.example. Em seguida, insira sua chave da API do Gemini.
 
 Arquivo .env:
 
+```
 GEMINI_API_KEY="SUA_CHAVE_DE_API_AQUI"
+```
 
 ## 5. Executar a Aplicação
 Com tudo configurado, execute o script principal para iniciar a interface.
 
---
+```
 python main.py
---
+```
 
 ## ⚙️ Como Usar
 Com a aplicação aberta, clique no botão "Selecionar Arquivo".
@@ -123,13 +123,15 @@ Localize a variável prompt dentro da função analyze_with_gemini.
 
 Altere as instruções, o cabeçalho do CSV e as regras de extração para atender às suas necessidades específicas.
 
-
+--
 ## ⚖️ Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+--
 
 
 ## 👨‍💻 Autor
 Feito por Enock
+Linkedin: [link](www.linkedin.com/in/joao-victor-enock-972b682b9)
 
 
 
