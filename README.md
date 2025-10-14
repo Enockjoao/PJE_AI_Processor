@@ -33,33 +33,35 @@ Processamento Assíncrono: A análise dos documentos é executada em uma thread 
 
 
 # 🛠️ Tecnologias Utilizadas
-Python 3.8+
+### Python 3.8+
 
-CustomTkinter: Para a criação da interface gráfica.
+### CustomTkinter: Para a criação da interface gráfica.
 
-Google Generative AI: Biblioteca oficial para interagir com a API do Gemini.
+### Google Generative AI: Biblioteca oficial para interagir com a API do Gemini.
 
-PyPDF2: Para a extração de texto de arquivos PDF.
+### PyPDF2: Para a extração de texto de arquivos PDF.
 
-python-dotenv: Para o gerenciamento seguro de chaves de API.
+### python-dotenv: Para o gerenciamento seguro de chaves de API.
 
 # 🚀 Instalação e Execução
 Siga os passos abaixo para executar o projeto em seu ambiente local.
 
-1. Pré-requisitos
+### 1. Pré-requisitos
 Python 3.8 ou superior instalado.
 
 Uma chave de API do Google Gemini. Você pode obter uma gratuitamente no Google AI Studio.
 
 # 2. Clonar o Repositório
+´´´
 git clone [https://github.com/SEU-USUARIO/PJE_Gemini_Processor.git](https://github.com/SEU-USUARIO/PJE_Gemini_Processor.git)
 cd PJE_Gemini_Processor
+´´´
 
 # 3. Instalar as Dependências
 É altamente recomendável criar um ambiente virtual para isolar as dependências do projeto.
 
 # Criar um ambiente virtual (opcional, mas recomendado)
-python -m venv venv
+´´´python -m venv venv´´´
 
 # Ativar o ambiente virtual
 # No Windows:
@@ -109,3 +111,4 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 
 👨‍💻 Autor
 Feito por Enock
+
