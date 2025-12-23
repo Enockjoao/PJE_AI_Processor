@@ -129,6 +129,10 @@ Localize a variável prompt dentro da função analyze_with_gemini.
 
 Altere as instruções, o cabeçalho do CSV e as regras de extração para atender às suas necessidades específicas.
 
+
+## Para Iniciar pelo Power Automate
+PowerAutomate.md
+
 --
 ## ⚖️ Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
@@ -138,6 +142,7 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 ## 👨‍💻 Autor
 Feito por Enock
 Linkedin: [link](www.linkedin.com/in/joao-victor-enock-972b682b9)
+
 
 
 
