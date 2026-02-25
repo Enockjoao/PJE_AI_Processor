@@ -15,6 +15,8 @@ Exportação de Dados: Salva os resultados em um arquivo .csv formatado, pronto 
 
 Processamento Assíncrono: A análise dos documentos é executada em uma thread separada para garantir que a interface do usuário permaneça responsiva durante o processamento.
 
+## Para Utilizar no Power Automate "Copiar conteudo do Agravo.txt ou Apelação.txt e colar em um novo Fluxo" 
+
 # Planejamento
 
 --
@@ -142,6 +144,7 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 ## 👨‍💻 Autor
 Feito por Enock
 Linkedin: [link](www.linkedin.com/in/joao-victor-enock-972b682b9)
+
 
 
 
